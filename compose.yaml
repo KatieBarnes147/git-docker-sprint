@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  webapp:
+    build:
+      context: ./webapp
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    container_name: advanced-programming-webapp
+    environment:
+      - STUDENT_NAME=Student
+      - COURSE_NAME=Advanced Programming
+    networks:
+      - app-network
+    restart: unless-stopped
+    volumes:
+      - .:/app/project
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  webapp-data:
+    driver: local
