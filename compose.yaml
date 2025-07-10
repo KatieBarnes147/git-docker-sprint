@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   webapp:
     build:
@@ -9,7 +7,7 @@ services:
       - "8080:80"
     container_name: advanced-programming-webapp
     environment:
-      - STUDENT_NAME=Student
+      - STUDENT_NAME=Katie Barnes
       - COURSE_NAME=Advanced Programming
     networks:
       - app-network
