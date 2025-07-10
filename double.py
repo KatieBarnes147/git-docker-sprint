@@ -1,8 +1,5 @@
-# double.py
-def double(num):
-    return num * 2
+def doubleIt(num):
+    return num * 3
 
 if __name__ == "__main__":
-    print("Double 4 is:", double(4))
-# This code defines a function to double a number and prints the result for 4.
-# It is a simple demonstration of function definition and usage in Python.
+    print("Triple of 4 is:", doubleIt(4))
