@@ -1,12 +1,12 @@
-# Git + Docker Sprint · `git-docker-sprint`
-[![Secret Scan](https://github.com/katiebarnes147/git-docker-sprint/actions/workflows/secret-scan.yml/badge.svg)](https://github.com/katiebarnes147/git-docker-sprint/actions/workflows/secret-scan.yml)
+﻿# Git + Docker Sprint Â· `git-docker-sprint`
+[![Secret Scan](https://github.com/KatieBarnes147/git-docker-sprint/actions/workflows/secret-scan.yml/badge.svg)](https://github.com/KatieBarnes147/git-docker-sprint/actions/workflows/secret-scan.yml)
 
 This project demonstrates version control best practices with **Git/GitLab** and containerization using **Docker Compose**.  
 Originally developed for graduate coursework, now polished for portfolio showcase.
 
 ---
 
-## 🎯 Project Overview
+## ðŸŽ¯ Project Overview
 The goal was to apply core **Git workflow** skills (branching, merging, reverting, closing issues via commit messages) while also learning how to **containerize a simple Python app** and run it with **Docker Compose**.
 
 **Key deliverables**
@@ -19,7 +19,7 @@ The goal was to apply core **Git workflow** skills (branching, merging, revertin
 
 ---
 
-## 🔧 Tech Stack
+## ðŸ”§ Tech Stack
 - **Git & GitLab/GitHub** (version control, merge requests/PRs)
 - **Python 3** (app logic)
 - **Docker & Docker Compose** (containerization)
@@ -27,7 +27,7 @@ The goal was to apply core **Git workflow** skills (branching, merging, revertin
 
 ---
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### Prerequisites
 - Docker Desktop (or Docker Engine + Compose)
@@ -50,7 +50,7 @@ docker compose up --build
 # If you have the older plugin:
 # docker-compose up --build
 ```
-Then open **http://localhost:5000** 🎉
+Then open **http://localhost:5000** ðŸŽ‰
 
 ### Run locally (no Docker)
 ```bash
@@ -60,11 +60,11 @@ python app.py
 
 ---
 
-## 🖼️ Live Demo
+## ðŸ–¼ï¸ Live Demo
 
 ---
 
-## 📚 What I Learned
+## ðŸ“š What I Learned
 - Confidently using **git revert** to fix mistakes without rewriting history  
 - Handling **merge conflicts** step-by-step  
 - **Auto-closing issues** with commit messages (`Fixes #123`)  
@@ -73,7 +73,7 @@ python app.py
 
 ---
 
-## 🔒 Security
+## ðŸ”’ Security
 This repo is sanitized; **no real secrets are committed**.
 
 - Real `.env` files are **ignored**
@@ -93,31 +93,32 @@ docker run --rm -v "$PWD:/repo" -w /repo zricethezav/gitleaks:latest detect --no
 
 ---
 
-## 🗂️ Project Structure (minimal)
+## ðŸ—‚ï¸ Project Structure (minimal)
 ```
 .
-├─ app.py              # simple Python endpoint / success page
-├─ requirements.txt    # Flask dependency
-├─ docker-compose.yml  # compose service definition
-├─ Dockerfile          # image build for the app
-├─ .env.example        # safe placeholders
-├─ README.md
-└─ docs/
-   └─ success.png      # screenshot used in the README
+â”œâ”€ app.py              # simple Python endpoint / success page
+â”œâ”€ requirements.txt    # Flask dependency
+â”œâ”€ docker-compose.yml  # compose service definition
+â”œâ”€ Dockerfile          # image build for the app
+â”œâ”€ .env.example        # safe placeholders
+â”œâ”€ README.md
+â””â”€ docs/
+   â””â”€ success.png      # screenshot used in the README
 ```
 
 ---
 
-## 🤔 Next Steps
+## ðŸ¤” Next Steps
 - Add a basic CI job to run unit tests (pytest)  
 - Expand the app beyond a simple success page  
 - Explore CI/CD pipelines (GitHub Actions or GitLab Auto DevOps)
 
 ---
 
-## ✍️ Author
-**Katie Barnes** — M.S. Computer Science & Software Engineering  
+## âœï¸ Author
+**Katie Barnes** â€” M.S. Computer Science & Software Engineering  
 GitHub: [@katiebarnes147](https://github.com/katiebarnes147) 
+
 
 
 
