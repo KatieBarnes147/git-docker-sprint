@@ -58,7 +58,10 @@ bash
 Copy code
 pip install -r requirements.txt
 python app.py
-🖼️ Live Demo / Screenshot
+
+🖼️ Screenshot
+
+![Success Page](./docs/success.png)
 
 📚 What I Learned
 Using git revert to fix mistakes without rewriting history
